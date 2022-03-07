@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="..\styles\file1.css">
+</head>
+<body>
+    <div align="center">
+        <img src="..\assets\img\Logo-pasteleria.png" alt="pasteleria" width="300" height="300">
+    </div>
+    
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="..\index.html">Home</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+                <li><a href="pastelero.html">Pastelero</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="seccion-pedidos">
+    <h2>Información de pedido</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="nombre">Teléfono:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="nombre">Correo electrónico:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="nombre">Descripción del pastel</label>
+        <input type="text" id="descripcion" name="descripcion"><br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+    
+
+    <h2>Sabores de pasteles</h2>
+        <label for="pasteles">Sabor</label>
+        <select id="pastel" name="pastel">
+            <option value="crepe-cake">CREPE CAKE CONEJITOS ($360.00)</option>
+            <option value="cookies-cream">COOKIES AND CREAM ($330.00)</option>
+            <option value="irlandes">PASTEL IRLANDES ($330.00)</option>
+            <option value="tres-leches-fresa">PASTEL 3 LECHES DE FRESA ($330.00)</option>
+        </select>
+        
+        <br><br>
+
+        <label for="combinar">A combinar con</label>
+        <select id="pastel" name="pastel">
+            <option value="sin-combinar">sin combinar</option>
+            <option value="crepe-cake">CREPE CAKE CONEJITOS ($360.00)</option>
+            <option value="cookies-cream">COOKIES AND CREAM ($330.00)</option>
+            <option value="irlandes">PASTEL IRLANDES ($330.00)</option>
+            <option value="tres-leches-fresa">PASTEL 3 LECHES DE FRESA ($330.00)</option>
+        </select>
+
+        <br><br>
+        <h2>Adornos de pasteles</h2>
+        <label for="adornos">Adornos</label>
+        <select name="adorno" id="adorno">
+            <option value="figura">Con figura</option>
+            <option value="nombre">Nombre</option>
+            <option value="chantilli">Chantilli</option>
+            <option value="velas">Velas</option>
+        </select>
+
+        <br><br>
+        <label for="adornos">Combinar</label>
+        <select name="adorno-combinar" id="adorno-combinar">
+            <option value="sin-combinar">sin combinar</option>
+            <option value="figura">Con figura</option>
+            <option value="nombre">Nombre</option>
+            <option value="chantilli">Chantilli</option>
+            <option value="velas">Velas</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+
+    </section>
+
+
+</body>
+</html>
