@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600;700&family=Rock+Salt&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Advent Pro', sans-serif; 
+}
+
+header{
+    padding: 10px 30px;
+}
+
+body{
+    background-image: url(../assets/img/pasteles.webp);
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+    /* Las siguientes líneas son para poder posicionar el footer al fondo */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    /* font-family: 'Advent Pro', sans-serif;     */
+}
+
+a:hover {
+    color: #aaa;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: bisque;
+    padding: 10px 0px;
+}
+
+.seccion-pedidos {
+    margin: 10px 30px;
+    background-color: bisque;
+    padding: 25px;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    /* margin-top servirá para completar la posición hasta el fondo de la página*/
+    margin-top: auto;
+    text-align: center
+}
